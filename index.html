@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" , content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="snake.js"></script>
+  </head>
+
+  <body>
+    <h1>Snake</h1>
+    <div id="startScreen">
+      <div id="startScreenContent">
+        <h1>Lets Play Snake</h1>
+        <p>
+          in this classic game you collect
+          <span style="color: #62bec1">food</span> as a
+          <span style="color: #996888">snake</span>. the more you eat the bigger
+          you become.
+        </p>
+        <p>
+          but be careful not to run into the wall or
+          <span style="color: #996888">YOURSELF</span>!
+        </p>
+        <input
+          class="buttons"
+          id="startButton"
+          type="button"
+          value="Play Game"
+          onclick="startGame()"
+        />
+      </div>
+    </div>
+
+    <canvas id="board" style="display: none"></canvas>
+
+    <div id="endScreen" style="display: none">
+      <div id="endScreenContent">
+        <h1 id="endMessage">GAMER OVER</h1>
+        <div class="endGameOptions">
+          <input
+            class="buttons"
+            id="replayButton"
+            type="button"
+            value="Play Again"
+            onclick="replay()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <h1 id="score" style="display: none"></h1>
+  </body>
+</html>

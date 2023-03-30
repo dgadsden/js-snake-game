@@ -1,0 +1,59 @@
+/* #62bec1 - food color, #996888 - snake color*/
+
+
+body{
+    /* slate gray color for window*/
+    background-color:#292724;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    align-content: center;
+    /* cream color text in the body*/
+    color: #F5D6BA ;
+}
+
+#startScreen{
+    align-self: center;
+    background-color: #F5D6BA;
+    color: #292724;
+    margin: auto;
+    margin-top: 50px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 5%;
+    
+}
+
+ .buttons{
+    background-color: #62bec1;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    color: #F5D6BA;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    
+}
+
+span .snake {
+    color: #996888;
+}
+
+#endScreen{
+    align-self: center;
+    background-color: #F5D6BA;
+    color: #292724;
+    margin: auto;
+    margin-top: 50px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+
+
+
+canvas {
+    margin: auto;
+}
